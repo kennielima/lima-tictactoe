@@ -1,0 +1,43 @@
+.grids {
+    display: grid;
+    /* border: 2px solid grey; */
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: 20px 20px 20px; */
+    width: 200px;
+    height: 180px;
+    grid-gap: 1px;
+    background-color:blanchedalmond;
+}
+.grid {
+    border: 2px solid rosybrown;
+    /* padding: 10px; */
+    font-size: 15px;
+    /* background-color:blanchedalmond; */
+}
+#winner {
+    border: 0px solid rosybrown;
+    font-size: 30px;
+    border-radius:7px;
+    font: bolder;
+    color: rgb(238, 193, 193);
+    background-color: rgb(70, 52, 52);
+    width:320px;
+}
+/* #one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#two {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100px;
+}
+#three {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100px;
+}
+#four {
+    grid-column-start: 1;
+    grid-column-end: 3;
+} */
